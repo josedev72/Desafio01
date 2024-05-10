@@ -11,7 +11,7 @@ namespace Desafio01
         public int Id { get; set; }
         public string Descripcion { get; set; }
         public decimal Costo { get; set; }
-        public decimal PreciVenta { get; set; }
+        public decimal PrecioVenta { get; set; }
         public int Stock { get; set; }
         public int IdUsuario { get; set; }
 
@@ -20,12 +20,12 @@ namespace Desafio01
             
         }
 
-        public Producto(int id, string descripcion, decimal costo, decimal preciVenta, int stock, int idUsuario)
+        public Producto(int id, string descripcion, decimal costo, decimal precioVenta, int stock, int idUsuario)
         {
             Id = id;
             Descripcion = descripcion;
             Costo = costo;
-            PreciVenta = preciVenta;
+            PrecioVenta = preciVenta;
             Stock = stock;
             IdUsuario = idUsuario;
         }
