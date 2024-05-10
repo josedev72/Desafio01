@@ -8,6 +8,9 @@ namespace Desafio01
 {
     public class Producto
     {
+        //Clase: Producto;
+        //Propiedades: Id, Descripcion, Costo, PrecioVenta, Stock, IdUsuario
+
         public int Id { get; set; }
         public string Descripcion { get; set; }
         public decimal Costo { get; set; }

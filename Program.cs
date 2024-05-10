@@ -6,7 +6,8 @@ namespace Desafio01
     {
         static void Main(string[] args)
         {
-            //instanciar clases
+            // Instanciar clases
+            // En la declaracion de las clases se codificó constructor vacio y completo para poder instancias con y sin parametros
             Producto producto = new Producto();
             Usuario usuario = new Usuario();
             Venta venta = new Venta();

@@ -8,6 +8,8 @@ namespace Desafio01
 {
     public class Venta
     {
+        //Clase: Venta;
+        //Propiedades: Id, Comentarios, IdUsuario
         public int Id { get; set; }
         public string Comentarios { get; set; }
         public int IdUsuario { get; set; }

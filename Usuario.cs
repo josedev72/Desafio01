@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Desafio01;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,8 @@ namespace Desafio01
 {
     public class Usuario
     {
+        //Clase: Usuario;
+        //Propiedades: Id, Nombre, Apellido, NombreUsuario, Contraseña, Mail
         public int Id { get; set; }
         public string Nombre { get; set; }
         public string Apellido { get; set; }

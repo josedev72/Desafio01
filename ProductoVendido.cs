@@ -8,6 +8,9 @@ namespace Desafio01
 {
     public class ProductoVendido
     {
+        //Clase: ProductoVendido;
+        //Propiedades: Id, IdProducto, Stock, IdVenta
+
         public int Id { get; set; }
         public int IdProducto { get; set; }
         public int Stock { get; set; }
