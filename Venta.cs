@@ -10,8 +10,8 @@ namespace Desafio01
     {
         //Clase: Venta;
         //Propiedades: Id, Comentarios, IdUsuario
-        public int Id { get; set; }
-        public string Comentarios { get; set; }
+        private int Id { get; set; }
+        private string Comentarios { get; set; }
         public int IdUsuario { get; set; }
 
         public Venta()
@@ -24,7 +24,5 @@ namespace Desafio01
             Comentarios = comentarios;
             IdUsuario = idUsuario;
         }
-
-
     }
 }

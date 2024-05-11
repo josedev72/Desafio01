@@ -11,14 +11,14 @@ namespace Desafio01
         //Clase: Producto;
         //Propiedades: Id, Descripcion, Costo, PrecioVenta, Stock, IdUsuario
 
-        public int Id { get; set; }
+        private int Id { get; set; }
         public string Descripcion { get; set; }
-        public decimal Costo { get; set; }
-        public decimal PrecioVenta { get; set; }
+        private decimal Costo { get; set; }
+        private decimal PrecioVenta { get; set; }
         public int Stock { get; set; }
-        public int IdUsuario { get; set; }
+        private int IdUsuario { get; set; }
 
-        public Producto()
+        private Producto()
         {
             
         }
@@ -28,7 +28,7 @@ namespace Desafio01
             Id = id;
             Descripcion = descripcion;
             Costo = costo;
-            PrecioVenta = preciVenta;
+            PrecioVenta = precioVenta;
             Stock = stock;
             IdUsuario = idUsuario;
         }

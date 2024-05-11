@@ -11,10 +11,10 @@ namespace Desafio01
         //Clase: ProductoVendido;
         //Propiedades: Id, IdProducto, Stock, IdVenta
 
-        public int Id { get; set; }
-        public int IdProducto { get; set; }
+        private int Id { get; set; }
+        private int IdProducto { get; set; }
         public int Stock { get; set; }
-        public decimal IdVenta { get; set; }
+        private decimal IdVenta { get; set; }
 
         public ProductoVendido()
         {
